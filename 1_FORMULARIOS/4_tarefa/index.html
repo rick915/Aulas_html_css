@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tarefas</title>
+</head>
+<body>
+    <form action="">
+        <div>
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" required placeholder="Digite seu nome">
+        </div>
+        <div>
+            <label for="nascimento">Nascimento:</label>
+            <input type="date" id="nascimento" required>
+        </div>
+        <div>
+            <label for="email">E-mail</label>
+            <input type="email" id="email" placeholder="Digite seu e-mail">
+        </div>
+        <div>
+            <label for="senha">senha:</label>
+            <input type="password" id="senha" required placeholder="Digite a senha">
+        </div>
+        <div>
+            <p>Você gosta de qual tipo de jogo?</p>
+            <div>
+                <input type="radio" id="av" name="jogo">
+                <label for="av">Aventura</label>
+            </div>
+            <div>
+                <input type="radio" id="rpg" name="jogo">
+                <label for="rpg">Rpg</label>
+            </div>
+            <div>
+                <input type="radio" id="tr" name="jogo">
+                <label for="tr">Terror</label>
+            </div>
+            <div>
+                <input type="radio" id="esporte" name="jogo">
+                <label for="esporte">Esporte</label>
+            </div>
+        </div>
+        <div>
+            <label for="Esporte">Selecine um esporte</label>
+            <select name="Esporte" id="Esporte">
+              <option selected disabled>Selecione</option>
+              <option value="Futbol">Futbol</option>
+              <option value="Basquete">Basquete</option>
+              <option value="Volei">Volei</option>
+              <option value="Handbal">Handbal</option>
+            </select>
+        </div>
+        <button>Enviar</button>
+    </form>
+</body>
+</html>
