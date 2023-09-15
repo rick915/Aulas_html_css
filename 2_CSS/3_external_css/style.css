@@ -1,0 +1,13 @@
+h1{
+    background: rgb(168, 104, 192);
+    color: rgb(129, 23, 227);
+}
+
+*{
+    background: gray;
+}
+
+p{
+    background: darkviolet;
+    font-size: 24px;
+}
