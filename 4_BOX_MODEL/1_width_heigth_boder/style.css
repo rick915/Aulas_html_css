@@ -1,0 +1,17 @@
+*{
+    background-color: rgb(63, 59, 59);
+}
+
+.caixa_width{
+    /* border-width: 2px;
+    border-style: solid;
+    border-color: red; */
+ 
+    border: 2px solid red;
+
+    width: 200px;
+}
+
+.imagem_width{
+    width: 400px;
+}
